@@ -1,7 +1,7 @@
 const identificarTriangulo = require("./identificarTriangulo");
 
 test('identifica triangulos equilateros', () =>{
-    expect(identificarTriangulo(3,3,2)).toBe("equilatero");
+    expect(identificarTriangulo(3,3,3)).toBe("equilatero");
     expect(identificarTriangulo(2,2,2)).toBe("equilatero");
 });
 
